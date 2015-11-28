@@ -22,5 +22,10 @@
             "mageekguy\\atoum\\bdd\\": "classes"
         },
         "files": ["autoloader.php"]
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        }
     }
 }
