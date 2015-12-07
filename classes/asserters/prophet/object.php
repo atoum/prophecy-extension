@@ -52,6 +52,7 @@ class object
         switch (strtolower($property))
         {
             case 'willBeConstructedWith':
+            case 'checkProphecyMethodsPredictions':
                 return $this->__call($property, array());
 
             case 'reveal':

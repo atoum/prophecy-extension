@@ -26,7 +26,9 @@ require_once __DIR__ . DIRECTORY_SEPARATOR . 'vendor' . DIRECTORY_SEPARATOR . 'a
 
 use mageekguy\atoum\prophecy;
 
-$runner->addExtension(new prophecy\extension($script));
+$extension = new prophecy\extension($script);
+
+$extension->addToRunner($runner);
 ```
 
 ## Use it

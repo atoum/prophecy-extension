@@ -18,10 +18,10 @@
         "atoum/atoum": "~2.0"
     },
     "autoload": {
-        "psr-4": {
-            "mageekguy\\atoum\\bdd\\": "classes"
-        },
         "files": ["autoloader.php"]
+    },
+    "autoload-dev": {
+        "files": ["tests/autoloader.php"]
     },
     "extra": {
         "branch-alias": {
