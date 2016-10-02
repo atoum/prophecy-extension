@@ -13,7 +13,7 @@
     ],
     "require": {
         "phpspec/prophecy": "~1.5",
-        "atoum/atoum": "~2.0"
+        "atoum/atoum": "^2.0"
     },
     "autoload": {
         "files": ["autoloader.php"]
