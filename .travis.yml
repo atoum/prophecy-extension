@@ -16,6 +16,11 @@ env:
 matrix:
   allow_failures:
     - php: nightly
+  exclude:
+    - php: 7.0
+      env: COMPOSER_PREFER="--prefer-stable"
+    - php: nightly
+      env: COMPOSER_PREFER="--prefer-stable"
 
 notifications:
   irc: "irc.freenode.org##atoum"
