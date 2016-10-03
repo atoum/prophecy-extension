@@ -32,3 +32,7 @@ $extension->addToRunner($runner);
 ```
 
 ## Use it
+
+## License
+phpunit-extension is released under the BSD-3-Clause License. See the bundled LICENSE file for details.
+
