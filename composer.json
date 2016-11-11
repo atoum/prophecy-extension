@@ -2,7 +2,7 @@
     "name": "atoum/prophecy-extension",
     "type": "library",
     "description": "atoum Prophecy extension",
-    "keywords": ["TDD", "atoum", "test", "unit testing", "mock", "prophecy","atoum-extension"],
+    "keywords": ["TDD", "atoum", "test", "unit testing", "mock", "prophecy", "atoum-extension"],
     "homepage": "http://www.atoum.org",
     "license": "BSD",
     "authors": [
