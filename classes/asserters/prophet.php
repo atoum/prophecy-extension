@@ -58,7 +58,6 @@ class prophet extends atoum\asserter
 
 	public function handleEvent($event, observable $observable)
 	{
-		var_dump($event);
 		if ($event === test::afterTestMethod)
 		{
 			$this->checkPredictions();
