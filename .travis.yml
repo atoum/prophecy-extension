@@ -9,6 +9,12 @@ php:
   - hhvm
   - hhvm-nightly
 
+sudo: false
+
+cache:
+  directories:
+    - vendor
+
 matrix:
   allow_failures:
     - php: hhvm
