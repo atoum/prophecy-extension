@@ -12,10 +12,8 @@
         }
     ],
     "require": {
-        "phpspec/prophecy": "~1.5"
-    },
-    "require-dev": {
-        "atoum/atoum": "~2.0"
+        "phpspec/prophecy": "~1.5",
+        "atoum/atoum": "^2.0"
     },
     "autoload": {
         "files": ["autoloader.php"]
