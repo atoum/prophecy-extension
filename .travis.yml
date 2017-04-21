@@ -20,14 +20,17 @@ matrix:
     - php: hhvm
     - php: hhvm-nightly
 
+env:
+  matrix:
+    - COMPOSER_PREFER="--prefer-stable"
+    - COMPOSER_PREFER="--prefer-lowest"
+
 notifications:
   irc: "irc.freenode.org##atoum"
 
 before_install:
   - if [[ "$TRAVIS_PHP_VERSION" = "7.0" ]]; then args="-ncc"; fi;
 
-before_script:
-  - composer install
-
 script:
+  - composer update $COMPOSER_PREFER
   - vendor/bin/atoum --test-ext $args
